@@ -1,0 +1,33 @@
+nav ul li{
+  line-height: 80px;
+  margin: 0 5px;
+}
+input{
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  color: limegreen;
+  border-radius: 5px;
+  height: 50px;
+  box-shadow: 2px 4px 2px 4px rgb(1, 2, 3);
+  display: inline-block;
+  width: 300px;
+  font-kerning: inherit;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: italic;
+}
+nav ul{
+  float: right;
+  text-align: center;
+}
+input:hover{
+  transform: scale(1.1);
+  text-align-last: center;
+}
+body{
+  text-align: center;
+  background-image: url(41757961-hyena-standing-and-watching-on-the-savannah.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
