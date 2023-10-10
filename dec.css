@@ -1,0 +1,61 @@
+body{
+	background-image: url(46523725-flock-of-zebras-grazing-grass-in-masai-mara-savannah.webp);
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size : cover ;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    padding: 20px 30px;
+}
+h1{
+	font-family: calibra;
+	color: black;
+	padding-block: 20px;
+	display: !important;
+	font-display: !important;	
+    flex-direction: initial;
+    margin-bottom: auto;
+    padding: 20px 30pxr;
+}
+img {
+  width: 600px;
+  height: 700px;
+  transition: transform 0.3s;
+  align-items: center;
+}
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 4px 4px;
+  color: limegreen;
+  flex-flow: row;
+}
+input:hover{
+	transform-style: preserve-3d;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+input{
+	width: 350px;
+	height: 30px;
+	border-radius:10px;
+	background-color: limegreen;
+	color: black;
+}
+a{
+	flex-flow: row;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}

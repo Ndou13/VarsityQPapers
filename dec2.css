@@ -1,0 +1,88 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  font-size: 15px;
+  font-style: oblique;
+  height: 30px;
+  min-width: 200px;
+  radius: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: sandy;
+  min-width: 200px;
+  box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: black;
+}
+body{
+  background-image: url(37563040-cheetah-walking-on-the-savannah.webp); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  background-color: sandy; /* Set background color for the menu bar */
+}
+ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block; /* Display list items horizontally */
+}
+
+a {
+  display: block; /* Make links fill the entire list item */
+  padding: 10px 20px; /* Add padding around the links */
+  color: green; /* Set link text color */
+  text-decoration: none; /* Remove underline */
+  font-style: italic;
+  align-self: flex-start;
+  font-weight: bolder;
+  font-size: large;
+}
+a:hover {
+  background-color: #555; /* Change background color on hover */
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+h1{
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 20px;
+  display: block;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+h1:hover{
+  transform: scale(1.1);
+  display: block;
+  background-color: #555;
+  font-style: italic;
+}
+input{
+  font-style: italic;
+  font-style: oblique;
+  font-display: fallback;
+  font-weight: none;
+  display: block;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px 2px;
+  text-align: center;
+  height: 25px;
+  width: 190PX;
+}
+input:hover{
+  transform: rotate3d(2, 2, 2, 0deg);
+  transform: scale(1.1);
+  }

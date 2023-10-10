@@ -1,0 +1,13 @@
+img{
+	height: 300px;
+	width: 600px;
+	align-items: center;
+}
+body{
+	background-image: url(41389211-african-buffalo-staring-at-you-and-with-a-yellow-billed-oxpecker-on-the-back.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img:hover{
+	transform: scale(1.1);
+}
